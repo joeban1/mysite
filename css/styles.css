@@ -8,7 +8,7 @@ body {
 h1 {
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
-    margin: 50px auto 0 auto;
+    margin: 50px auto 25px auto;
     color: #66BFBF;
 }
 
@@ -18,6 +18,7 @@ h2 {
     color: #66BFBF;
     font-weight: normal;
     padding-bottom: 10px;
+    padding-top:20px;
     margin-block-start: 0.25rem;
 }
 
@@ -87,10 +88,10 @@ p {
 }
 
 hr {
-    width: 3%;
+    width: 4%;
     border-style: none;
     border-top-style: dotted;
-    border-color: grey;
+    border-color: LIGHTGREY;
     border-width: 6px;
 }
 
@@ -114,6 +115,12 @@ hr {
     position: absolute;
     left: 15%;
     bottom: 25%;
+}
+
+.bottom-txt{
+    margin:auto;
+    width:40%;
+    padding:20px;
 }
 
 .BUTTON_UDZ {
